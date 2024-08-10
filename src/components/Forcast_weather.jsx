@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import styles from './style.module.css'
 import './Styles/Forcast.css'
 import axios from 'axios';
 import Skeleton from 'react-loading-skeleton'
@@ -37,10 +36,10 @@ function Forcast_weather() {
 
   return (
     <>
-      <div className={styles.header}>
+      {/* <div className="header"> */}
         {/* <h2 className={styles.h2}>WeatherWise</h2> */}
-      </div>
-      <div className={styles.container}>
+      {/* </div> */}
+      <div className="container">
 
         <div className="search">
           <input placeholder="Enter location...."
@@ -157,10 +156,9 @@ function Forcast_weather() {
           </>
           :
 
-          // <div>
-          //   <Astronomy/>
-          // </div>
-          <div className={styles.er}>
+         
+          // <div className="er">
+          <div>
             {/* <p>Enter location for get info</p> */}
             <div className='info'>
               <div className='sub-info'>
