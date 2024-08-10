@@ -19,7 +19,7 @@ function Forcast_weather() {
         days: '3'
       },
       headers: {
-        'x-rapidapi-key': '',
+        'x-rapidapi-key': 'Add your API Key here',
         'x-rapidapi-host': 'weatherapi-com.p.rapidapi.com'
       }
     };
